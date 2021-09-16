@@ -21,8 +21,11 @@ let intervalForTimer = null;
 updateTimer();
 
 function updateTimer() {
-
+//текущая дата
   const currentTime = Date.now();
+
+//Для подсчета значений используй следующие готовые формулы, где time - разница между targetDate и текущей датой.
+  
   time = timer.targetDate - currentTime;
   if (timer.targetDate === currentTime) {
     return 'Время вышло'
@@ -37,6 +40,7 @@ function updateTimer() {
 
   intervalForTimer = setTimeout(updateTimer, 1000);
 }
+
 function updateClockFace({ days, hours, mins, secs }) {
   refs.daysSpan.textContent = days;
   refs.hoursSpan.textContent = hours;
