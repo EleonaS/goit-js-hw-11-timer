@@ -5,4 +5,4 @@ const t={timer:document.getElementById("timer-1"),daysSpan:document.querySelecto
 },{"/home/runner/work/goit-js-hw-11-timer/goit-js-hw-11-timer/src/images/sale.jpg":[["sale.6c6dea07.jpg","tmtp"],"tmtp"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./js/timer"),require("./sass/main.scss");
 },{"./js/timer":"yCUT","./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-timer/src.a3e8e0db.js.map
+//# sourceMappingURL=/goit-js-hw-11-timer/src.3e619b15.js.map
